@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/home/labib-ahmed/git/repository/.git\:
-GitRepositoriesView.GitDirectories.relative=/home/labib-ahmed/git/repository/.git\:
+GitRepositoriesView.GitDirectories=/home/labib-ahmed/git/repository/.git\:/home/labib-ahmed/Videos/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/labib-ahmed/git/repository/.git\:/home/labib-ahmed/Videos/.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -12,11 +12,24 @@ public class CustomerServiceProvider {
 	@Autowired
 	CustomerRepo repo;
 	
-	public CustomerResponse getCustomer(int id) {
+	public Customer getCustomer(int id) {
 		// TODO Auto-generated method stub
 		Customer customer =  repo.findById(id).get();
 		
-		return new CustomerResponse();
+		//System.out.println(customer.getFname());
+		
+		CustomerResponse response = new CustomerResponse(
+				customer.getId(),
+				customer.getFname(),
+				customer.getLname(),
+				customer.getEmail(),
+				customer.getPhone(),
+				customer.getCity()
+				); 
+		
+		System.out.println("ok"+ response.getCity());
+		//return response;
+		return customer;
 		
 		//return null;
 	}

@@ -1,6 +1,14 @@
 package com.onlineshop.customer.onlineShoppingserviceCustomer.ResponseC;
 
 public class CustomerResponse {
+	public CustomerResponse(int id, String fname, String lname, String email, String phone, String city) {
+		this.id = id;
+		this.fname = fname;
+		this.lname = lname;
+		this.email = email;
+		this.phone = phone;
+		this.city = city;
+	}
 
 	private int id;
 	

@@ -1,3 +1,6 @@
 1680686914767	Rename type 'ServiceController'
 1680686940501	Rename type 'ServiceProvider'
 1680688161671	Rename type 'Custormer'
+1680753628576	Rename local variable 'res'
+1680755065929	Rename type 'Employee'
+1680755570004	Rename local variable 'custorme'
