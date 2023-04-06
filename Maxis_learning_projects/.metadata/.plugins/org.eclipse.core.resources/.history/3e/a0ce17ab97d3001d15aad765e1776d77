@@ -1,0 +1,5 @@
+package com.onlineshop.customer.onlineShoppingserviceCustomer.Entity;
+
+public class Customer {
+
+}

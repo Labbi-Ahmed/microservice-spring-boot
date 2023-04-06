@@ -1,0 +1,12 @@
+package com.onlineshop.customer.onlineShoppingserviceCustomer.Service;
+
+import com.onlineshop.customer.onlineShoppingserviceCustomer.ResponseC.CustomerResponse;
+
+public class CustomerServiceProvider {
+
+	public CustomerResponse getCustomer(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
